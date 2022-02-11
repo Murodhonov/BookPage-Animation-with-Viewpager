@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF7043"
+    tools:context=".BlankFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher_background"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager uchun kitob shaklidagi animatsiya @Murodhonov"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022    Android Kotlin 2022 Android Kotlin 2022  "
+        android:layout_marginTop="70dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
